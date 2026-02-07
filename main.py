@@ -6,7 +6,7 @@ import requests
 import threading
 
 
-API_KEY = os.environ.get("uvff13ukrn6fik0i5avzzeladf5q0oi6kj3hpm2o", "").strip() or "BURAYA_GEÇERLİ_KEYİNİ_YAZ"
+API_KEY = os.environ.get("uvff13ukrn6fik0i5avzzeladf5q0oi6kj3hpm2o", "").strip() or "uvff13ukrn6fik0i5avzzeladf5q0oi6kj3hpm2o"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 class WeatherApp(tk.Tk):
